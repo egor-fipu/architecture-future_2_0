@@ -1,0 +1,24 @@
+@startuml
+title Диаграмма потоков данных "Будущее 2.0"
+
+rectangle "Медицинский домен" as Medical
+rectangle "Финансовый домен" as Financial
+rectangle "Домен управления клиникой" as Clinic
+rectangle "Аналитический домен" as Analytics
+rectangle "Домен клиентского обслуживания" as ClientService
+rectangle "Шина интеграции" as IntegrationBus
+rectangle "Внешние фармацевтические компании" as Pharma
+rectangle "Компания - производитель медицинского оборудования" as Equipment
+
+Medical --> IntegrationBus : Медицинские данные
+Financial --> IntegrationBus : Финансовые данные
+Clinic --> IntegrationBus : Данные управления клиникой
+IntegrationBus --> Analytics : Данные
+Analytics --> ClientService : Отчеты, аналитика
+ClientService --> Analytics : Запросы на отчеты
+Pharma --> IntegrationBus : Данные
+Equipment --> IntegrationBus : Данные
+IntegrationBus --> Pharma : Данные
+IntegrationBus --> Equipment : Данные
+
+@enduml

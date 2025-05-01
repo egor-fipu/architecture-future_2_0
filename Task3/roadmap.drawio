@@ -1,0 +1,85 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="Scw4zQTm12jdMHq2vgj6">
+    <mxGraphModel dx="1687" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j15NlJPr3SPbp2yMhyei-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="1440" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="j15NlJPr3SPbp2yMhyei-1" value="Команда разработки DWH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="150" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j15NlJPr3SPbp2yMhyei-2" value="Команда разработки портала самообслуживания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="150" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j15NlJPr3SPbp2yMhyei-3" value="Команда разработки аналитики" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="150" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j15NlJPr3SPbp2yMhyei-5" value="Q1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="290" y="140" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j15NlJPr3SPbp2yMhyei-7" value="Анализ текущей DWH и планирование миграции" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="290" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-4" value="Q2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-5" value="Q3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="140" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-6" value="Q4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="140" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-7" value="Разработка ETL-процессов для миграции данных в Data Lakehouse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-8" value="Миграция основных данных в Data Lakehouse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-9" value="Оптимизация Data Lakehouse и отключение устаревшей DWH" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="200" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-10" value="Выбор и настройка инструментов для Data Lakehouse (Apache Iceberg/Delta Lake, Spark, Presto/Trino)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-11" value="Разработка моделей данных для витрины данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-12" value="Разработка отчётов и аналитических инструментов на основе Data Lakehouse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-14" value="Команда разработки интеграции" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="150" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-15" value="Интеграция аналитики с порталом самообслуживания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="270" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-16" value="Анализ требований и проектирование портала самообслуживания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-17" value="Разработка бэкенда портала (Python/Django/Flask)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-18" value="Разработка фронтенда портала (React/Angular/Vue.js)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="340" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-19" value="Запуск портала самообслуживания и обучение пользователей" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="340" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-20" value="Анализ текущей шины интеграции и выбор новых технологий (Apache Kafka/RabbitMQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-21" value="Разработка и тестирование новых интеграционных сервисов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-22" value="Миграция интеграционных потоков на новую шину" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="410" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NaWFkfSckbiZdhJS-k3u-23" value="Интеграция аналитики с порталом самообслуживания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="410" width="340" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

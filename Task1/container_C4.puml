@@ -1,0 +1,52 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+skinparam component {
+  backgroundColor White
+  borderColor Black
+}
+
+skinparam database {
+  backgroundColor White
+  borderColor Black
+}
+
+skinparam person {
+  backgroundColor White
+  borderColor Black
+}
+
+person "Бизнес-пользователи" as User
+
+package "Портал самообслуживания" {
+  component "Веб-приложение (Python/React.js)" as DataPortal
+}
+
+package "Хранилище данных" {
+  database "Data Lakehouse (Apache Iceberg/Delta Lake)" as DataLakehouse
+}
+
+package "Шина интеграции" {
+  component "Сервис (Apache Kafka/Camel)" as IntegrationBus
+}
+
+package "ИИ-сервисы" {
+  component "Сервисы (Python/TensorFlow)" as AIServices
+}
+
+package "Финтех-сервисы" {
+  component "Сервисы (Golang/Java)" as FintechServices
+}
+
+package "Внутренние сервисы" {
+  component "Сервисы (Java/Python)" as InternalServices
+}
+
+User --> DataPortal : Использует
+DataPortal --> DataLakehouse : Получает данные
+IntegrationBus --> DataLakehouse : Передает данные
+IntegrationBus --> AIServices : Передает данные
+IntegrationBus --> FintechServices : Передает данные
+IntegrationBus --> InternalServices : Передает данные
+
+@enduml
